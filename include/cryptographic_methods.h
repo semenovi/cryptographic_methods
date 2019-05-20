@@ -1,0 +1,6 @@
+#ifndef CRYPTOGRAPHIC_METHODS
+#define CRYPTOGRAPHIC_METHODS
+
+
+
+#endif

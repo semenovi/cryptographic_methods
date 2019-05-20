@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.6)
+project(cryptographic_methods)
+set(SOURCES cryptographic_methods.cpp)
+set(HEADERS cryptographic_methods.h)
+add_library(cryptographic_methods ${SOURCES} ${HEADERS})
+target_include_directories(cryptographic_methods PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
