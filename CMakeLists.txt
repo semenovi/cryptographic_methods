@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 2.6)
 project(cryptographic)
 set(SRC_LIST src/main.cpp)
-add_executable(renders ${SRC_LIST})
+add_executable(cryptographic ${SRC_LIST})
 add_subdirectory(include)
 target_link_libraries(cryptographic cryptographic_methods)
 set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "Configs" FORCE)
